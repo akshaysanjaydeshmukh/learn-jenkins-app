@@ -35,7 +35,7 @@ pipeline {
                 '''
             }
         }
-    }
+    
 stage('E2E'){
     agent {
         docker{
@@ -51,7 +51,7 @@ stage('E2E'){
         '''
     }
 }
-}
+    }
 
 post {
     always{
