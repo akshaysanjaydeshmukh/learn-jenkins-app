@@ -51,6 +51,7 @@ stage('E2E'){
         '''
     }
 }
+}
 
 post {
     always{
